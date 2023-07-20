@@ -1,4 +1,7 @@
 #!/bin/python3
+# 1. load url and store info into a big string
+# 2. use soup to parse the html
+# 3. use regex to locate info ( don't forget to decode )
 import re
 import urllib.request
 from bs4 import BeautifulSoup
